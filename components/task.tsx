@@ -4,6 +4,7 @@ import { View,Text,StyleSheet, } from "react-native";
 
 const Task = (props) =>{
     return(
+
         <View style={styles.item}>
             <View style={styles.itemLeft}>
              <View style={styles.square}></View>
